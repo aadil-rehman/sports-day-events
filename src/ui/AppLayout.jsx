@@ -6,7 +6,7 @@ function AppLayout() {
 	return (
 		<div className=" bg-slate-50">
 			<Header />
-			<div className="grid grid-cols-[3fr_2fr] h-screen max-w-[1200px] mx-auto">
+			<div className="grid grid-cols-[3fr_2fr] h-full max-w-[1200px] mx-auto">
 				<Events />
 				<SelectedEvents />
 			</div>
